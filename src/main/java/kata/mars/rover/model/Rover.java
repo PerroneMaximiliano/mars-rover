@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kata.mars.rover;
-
-import kata.mars.rover.model.Point;
-import kata.mars.rover.model.Planet;
+package kata.mars.rover.model;
 
 /**
  *
@@ -22,19 +19,19 @@ public abstract class Rover {
         this.planet = planet;
     }
     
-    abstract void moveForward();
+    public abstract void moveForward();
     
-    abstract void moveBackward();
+    public abstract void moveBackward();
     
-    abstract Rover turnLeft();
+    public abstract Rover turnLeft();
     
-    abstract Rover turnRight();
+    public abstract Rover turnRight();
     
-    abstract void validateIncreaseX();
+    public abstract void validateIncreaseX();
     
-    abstract void validateIncreaseY();
+    public abstract void validateIncreaseY();
     
-    abstract void validateDecreaseX();
+    public abstract void validateDecreaseX();
     
-    abstract void validateDecreaseY();
+    public abstract void validateDecreaseY();
 }

@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kata.mars.rover;
-
-import kata.mars.rover.model.Point;
-import kata.mars.rover.model.Planet;
+package kata.mars.rover.model;
 
 /**
  *
@@ -43,22 +40,22 @@ public class RoverWest extends Rover {
     }
 
     @Override
-    void validateIncreaseX() {
+    public void validateIncreaseX() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    void validateIncreaseY() {
+    public void validateIncreaseY() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    void validateDecreaseX() {
+    public void validateDecreaseX() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    void validateDecreaseY() {
+    public void validateDecreaseY() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

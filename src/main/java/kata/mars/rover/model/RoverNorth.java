@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kata.mars.rover;
-
-import kata.mars.rover.model.Point;
-import kata.mars.rover.model.Planet;
+package kata.mars.rover.model;
 
 /**
  *
@@ -58,12 +55,14 @@ public class RoverNorth extends Rover {
     }
 
     @Override
-    void validateDecreaseX() {
-        
+    public void validateDecreaseX() {
+        if (coordinates.getX() < planet.getWidth()) {
+            coordinates.setX(planet.getWidth());
+        }
     }
 
     @Override
-    void validateDecreaseY() {
+    public void validateDecreaseY() {
         
     }
     

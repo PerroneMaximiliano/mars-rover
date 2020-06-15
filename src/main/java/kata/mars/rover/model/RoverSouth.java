@@ -3,63 +3,61 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kata.mars.rover;
-
-import kata.mars.rover.model.Point;
-import kata.mars.rover.model.Planet;
+package kata.mars.rover.model;
 
 /**
  *
  * @author maramax
  */
-public class RoverEast extends Rover {
+public class RoverSouth extends Rover {
 
-    public RoverEast(Point coordinates, Planet planet) {
+    public RoverSouth(Point coordinates, Planet planet) {
         super(coordinates, planet);
     }
     
+
     @Override
     public void moveForward() {
-        coordinates.increaseX();
+        coordinates.decreaseY();
     }
 
     @Override
     public void moveBackward() {
-        coordinates.decreaseX();
+        coordinates.increaseY();
     }
 
     @Override
     public Rover turnLeft() {
-        return new RoverNorth(coordinates, planet);
+        return new RoverEast(coordinates, planet);
     }
 
     @Override
     public Rover turnRight() {
-        return new RoverSouth(coordinates, planet);
+        return new RoverWest(coordinates, planet);
     }
 
     @Override
     public String toString() {
-        return "RoverEast{" + "coordinates=" + coordinates + '}';
+        return "RoverSouth{" + "coordinates=" + coordinates + '}';
     }
 
     @Override
-    void validateIncreaseX() {
+    public void validateIncreaseX() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    void validateIncreaseY() {
+    public void validateIncreaseY() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    void validateDecreaseX() {
+    public void validateDecreaseX() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    void validateDecreaseY() {
+    public void validateDecreaseY() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

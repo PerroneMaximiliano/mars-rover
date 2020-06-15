@@ -3,8 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kata.mars.rover;
+package kata.mars.rover.controller;
 
+import kata.mars.rover.utils.Assert;
+import kata.mars.rover.model.Rover;
+import kata.mars.rover.model.RoverNorth;
+import kata.mars.rover.model.RoverWest;
+import kata.mars.rover.model.RoverEast;
+import kata.mars.rover.model.RoverSouth;
 import kata.mars.rover.model.Point;
 import kata.mars.rover.model.Planet;
 

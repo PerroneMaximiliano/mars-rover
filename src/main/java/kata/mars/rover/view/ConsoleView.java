@@ -7,7 +7,7 @@ package kata.mars.rover.view;
 
 import java.util.ArrayList;
 import java.util.List;
-import kata.mars.rover.RoverController;
+import kata.mars.rover.controller.RoverController;
 import kata.mars.rover.model.Point;
 import kata.mars.rover.model.Planet;
 
