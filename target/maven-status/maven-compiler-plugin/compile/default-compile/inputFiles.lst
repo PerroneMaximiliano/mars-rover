@@ -1,0 +1,10 @@
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/RoverController.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/RoverNorth.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/model/Planet.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/view/ConsoleView.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/RoverWest.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/RoverSouth.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/utils/Direction.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/model/Coordinates.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/Rover.java
+/home/maramax/NetBeansProjects/mars-rover/src/main/java/kata/mars/rover/RoverEast.java
